@@ -51,10 +51,8 @@
                   {% csrf_token %}
                   <input type = "hidden" />
                 </form>
-                <a class="nav-item nav-link" href="#">Anime List</a>
                 <a class="nav-item nav-link" href="https://twitter.com/xa333">Twitter</a>
                 {% else %}
-                <a class="nav-item nav-link" href="#">Anime List</a>
                 <a class="nav-item nav-link" href="https://twitter.com/xa333">Twitter</a>
                 <a class="nav-item nav-link" href="{% url 'signup' %}">Sign Up</a>
                 <a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
